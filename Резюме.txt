@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Резюме — Суязов Егор</title>
+</head>
+<body>
+  <header>
+    <div id="top">
+      <img src="1122.png" alt="Фотография" width="140" height="140">
+      <h1>Суязов Егор</h1>
+      <p><strong>Backend Developer</strong></p>
+      <p>
+        <a href="mailto:suyazovegor@yandex.ru">suyazovegor@yandex.ru</a>
+        <span aria-hidden="true"> · </span>
+        <a href="tel:+79258456946">+7 (925) 845-69-46</a>
+      </p>
+      <hr>
+    </div>
+  </header>
+
+  <article>
+    <section id="summary">
+      <header>
+        <h2>Краткое резюме</h2>
+      </header>
+      <p>
+        Backend разработчик с опытом создания серверных приложений и API. Увлечен разработкой масштабируемых и высокопроизводительных систем.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Ключевые навыки</h2>
+      <dl>
+        <dt>Языки программирования</dt>
+        <dd>Python, SQL, С++</dd>
+
+        <dt>Инфраструктура</dt>
+        <dd>GitHub</dd>
+
+        <dt>Базы данных</dt>
+        <dd>PostgreSQL</dd>
+
+        <dt>Инструменты</dt>
+        <dd>Git, Django</dd>
+      </dl>
+    </section>
+
+    <section id="experience">
+      <h2>Опыт работы</h2>
+      <ol>
+        <li>
+          <section>
+            <h3>Backend Developer — ООО «ТехСофт»</h3>
+            <p><em>Сентябрь 2025 — настоящее время</em></p>
+            <ul>
+              <li>Оптимизация запросов к базе данных, сокращение времени ответа на 20%.</li>
+              <li>Внедрение CI/CD пайплайнов с использованием GitHub Actions.</li>
+            </ul>
+          </section>
+        </li>
+        <li>
+          <section>
+            <h3>Junior Backend Developer — ООО «СофтПрогресс»</h3>
+            <p><em>Июль 2022 — Февраль 2024</em></p>
+            <ul>
+              <li>Интеграция с внешними API (платежные системы, службы доставки).</li>
+              <li>Написание unit-тестов для повышения покрытия кода до 85%.</li>
+            </ul>
+          </section>
+        </li>
+      </ol>
+    </section>
+
+    <section id="education">
+      <h2>Образование</h2>
+      <table border="1" cellpadding="6" cellspacing="0">
+        <colgroup>
+          <col style="width:30%">
+          <col style="width:45%">
+          <col style="width:25%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Период</th>
+            <th>Учебное заведение</th>
+            <th>Город</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2022 — 2026</td>
+            <td>РЭУ им. Г.В. Плеханова — Бакалавр, Математическое обеспечение и администрирование информационных систем</td>
+            <td>Москва</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="projects">
+      <h2>Избранные проекты</h2>
+      <ul>
+        <li><strong>API для блога</strong> — разработка REST API на Django для блоговой платформы; роль: backend разработчик.</li>
+        <li><strong>Чат-бот</strong> — создание Telegram-бота для автоматизации задач; роль: разработчик.</li>
+      </ul>
+    </section>
+
+    <section id="certificates">
+      <h2>Сертификаты и курсы</h2>
+      <ul>
+        <li>Stepik — Основы программирования на Python, 2023.</li>
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2>Языки</h2>
+      <ul>
+        <li>Русский — родной</li>
+        <li>Английский — уровень B1 (чтение технической документации, базовый разговор)</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section id="additional">
+      <h2>Дополнительно</h2>
+      <p>
+        Готов к удалённой работе, открыт к новым технологиям и обучению. Рекомендации предоставлю по запросу.
+      </p>
+    </section>
+  </article>
+
+  <footer>
+    <section>
+      <h2>Контакты</h2>
+      <address>
+        <p>
+          Email: <a href="mailto:suyazovegor@yandex.ru">suyazovegor@yandex.ru</a><br>
+          Телефон: <a href="tel:+79258456946">+7 (925) 845-69-46</a>
+        </p>
+      </address>
+      <p>
+        Профили:
+        <a href="https://github.com/egor0002" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </section>
+  </footer>
+</body>
+</html>
